@@ -1,0 +1,30 @@
+{
+  "name": "redux-form-saga-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "release": "NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "ABCanG <abcang1015@gmail.com> (https://abcang.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "~6.21.0",
+    "babel-loader": "~6.2.10",
+    "babel-polyfill": "~6.20.0",
+    "babel-preset-latest": "~6.16.0",
+    "babel-preset-react": "~6.16.0",
+    "mirror-creator": "~1.1.0",
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1",
+    "react-redux": "~5.0.1",
+    "redux": "~3.6.0",
+    "redux-form": "~6.3.2",
+    "redux-saga": "~0.13.0",
+    "webpack": "~1.14.0"
+  }
+}
